@@ -1,0 +1,211 @@
+*{margin: 0; border: 0; border: 0;}
+
+main{
+    width: 1200px;
+    margin: 0 auto;
+    color: rgb(201, 209, 217);
+}
+
+/*------[header]-----*/
+
+header{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    
+}
+
+header figure img{
+width: 200px;
+height: 200px;
+
+}
+
+header nav{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+header nav li{
+    list-style: none;
+    text-align: center;
+    border-style: solid;
+}
+
+nav ul li{
+    display: inline;
+    padding: 5px;
+    
+
+}
+
+nav ul li a{
+    background-color: rgb(13, 17, 23);
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 3px;
+    font-family: 'Abel', sans-serif;
+    color: greenyellow;
+
+
+}
+nav ul li a:hover{
+    background-color: rgba(13, 17, 23, 0.5);
+    border-bottom: solid 3px rgb(31, 11, 235);
+    
+}
+header h1{
+    margin-top: 90px;
+    font-family: 'Fugaz One', cursive;
+    letter-spacing: 6px;
+    color: rgb(31, 11, 235);
+    font-size: 40px;
+    margin-bottom: 100px;
+    
+}
+
+/*------[Informacion]-----*/
+
+#info{
+    width: 100%;
+    margin-bottom: 300px;
+    
+    
+    
+}
+
+h2,p{
+    margin-right: 60px;
+}
+
+
+h2{
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 8px;
+    border-left: solid 8px red;
+    padding: 10px;
+    color: black;
+    float: left;
+  
+}
+
+p{  
+    color: black;
+    float: left;
+    width: 33.3%;   
+    font-family: 'Abel', sans-serif;
+}
+
+h3{
+    padding-left: 25px;
+    float: left;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 5px;
+    width: 33.3%;
+
+
+}
+
+#info ol {
+    float: left;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    width: 33.3%;
+
+}
+
+/*------[Que hacer en las piedras]-----*/
+
+#queHacer{
+    clear: both;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#queHacer h2{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#queHacer #plaza{
+    float: left;
+    width: 400px;
+}
+
+
+#queHacer #bodega{
+    float: left;
+    width: 400px;
+}
+
+#queHacer #parqueArtigas{
+    float: left;
+    width: 400px;
+}
+
+#queHacer article figure{
+    position: relative;
+}
+
+
+#queHacer article figure img {
+width: 380px;
+    
+}
+
+#queHacer article p{
+    width: 100%;
+}
+
+#queHacer h3{
+width: 210px;
+position: absolute;
+bottom: 20px;
+background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
+color: white;
+
+}
+
+#queHacer article figure img:hover{
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+
+}
+
+/*-----[Ciudad en fotos]-----*/
+
+#ciudad{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1200px ,repeat(3,auto);
+    grid-template-rows: 50px , repeat(3,auto);
+    justify-self: start;
+    grid-gap: 5px; 
+    
+}
+
+
+#ciudad h2{
+    grid-column: 1 / span 2;
+    grid-row: 1 / 2;
+    
+}
+
+#torres{
+
+}
+
+#canyon{
+
+}
+
+#obelisco{
+
+}
+
+#cartel{
+    
+}
+
+
