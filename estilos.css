@@ -1,17 +1,32 @@
 *{margin: 0; border: 0; border: 0;}
 
+html{
+scroll-behavior: smooth;
+}
+
+
 main{
-    width: 1200px;
-    margin: 0 auto;
     color: rgb(201, 209, 217);
+    
+}
+
+span{
+    color:blue
 }
 
 /*------[header]-----*/
 
 header{
-    background-color: white;
-    width: 100%;
+    background-color:darkgray;
+    background-image: url("imgs/viñedo2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+    margin-bottom: 80px;
     
 }
 
@@ -59,7 +74,7 @@ header h1{
     margin-top: 90px;
     font-family: 'Fugaz One', cursive;
     letter-spacing: 6px;
-    color: rgb(31, 11, 235);
+    color: black;
     font-size: 40px;
     margin-bottom: 100px;
     
@@ -68,10 +83,8 @@ header h1{
 /*------[Informacion]-----*/
 
 #info{
-    width: 100%;
-    margin-bottom: 300px;
-    
-    
+    width: 1200px;
+    margin: 0 auto;
     
 }
 
@@ -120,12 +133,14 @@ h3{
 
 #queHacer{
     clear: both;
-    position: relative;
-    background-attachment: fixed;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 300px;
+    
 }
 
 #queHacer h2{
-  width: 100%;
+  width: 1200px;
   margin-bottom: 20px;
 }
 
@@ -177,10 +192,14 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 
 #ciudad{
     display: grid;
-    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
     grid-template-columns: 1200px, repeat(3, 380px), 650px;
     grid-template-rows:  50px, 500px, repeat(3, 212px);
-    grid-gap: 5px 5px;
+    grid-gap: 10px 10px;
+    margin-bottom: 50px;
+    
+    
 
 }
 
@@ -203,16 +222,29 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 
 }
 
+#torres:hover{
+    border: solid 2px red;
+}
+
 #canyon{
     grid-column: 2 / 3 ;
     grid-row: 2/ 3;
   
 }
 
+#canyon:hover{
+    border: solid 2px slateblue;
+}
+
+
 #obelisco{
     grid-column: 3/4;
     grid-row: 2 / 3;
     
+}
+
+#obelisco:hover{
+    border: solid 2px seagreen;
 }
 
 #cartel{
@@ -221,4 +253,72 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 
 }
 
+#cartel:hover{
+    border: solid 2px blue;
 
+}
+
+/*-----[Registrate y recibi novedades]-----*/
+
+#registrate{
+    width: 100%;
+    background-color: cornflowerblue;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+    
+}
+
+#registrate input{
+    padding: 5px;
+    border: solid 1px ;
+
+    
+}
+
+#registrate label{
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    padding: 5px;
+    letter-spacing: 4px;
+    
+    
+}
+
+
+/*-----[Top atracciones y famosos]-----*/
+
+#topAndFamosos{
+width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+
+
+
+
+}
+
+#topAtracciones{
+   color: blue
+    
+   
+}
+
+#topAtracciones h2{
+    align-content: flex-start;
+}
+
+
+#topAtracciones table{
+    display: block;
+ 
+    
+}
+
+
+
+#famosos ul{
+
+}
