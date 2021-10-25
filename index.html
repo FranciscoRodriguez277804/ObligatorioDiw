@@ -17,13 +17,13 @@
 <body>
     <main>
         <header>
-            <figure><img src="imgs/logo.png" alt=""></figure>
+            <figure><img src="imgs/logo.png" alt="logo de la pagina" title="logo"></figure>
             <nav>
                 <ul>
-                    <li><a href="#info">INFORMACION:</a></li>
-                    <li><a href="#queHacer">QUE HACER:</a></li>
-                    <li><a href="#ciudad">GALERIA:</a></li>
-                    <li><a href="#topAndFamosos">TOP 10:</a></li>
+                    <li><a href="#info">INFORMACION</a></li>
+                    <li><a href="#queHacer">QUE HACER</a></li>
+                    <li><a href="#ciudad">GALERIA</a></li>
+                    <li><a href="#topAndFamosos">TOP 10</a></li>
                 </ul>
                 <h1>¡Veni a conocernos!</h1>
 
@@ -33,7 +33,7 @@
         <section id="info">
             <!--Informacion-->
             <h2>Informacion</h2>
-            <p>La ciudad se ubica al sur del departamento de Canelones,
+            <p>Las Piedras se ubica al sur del departamento de Canelones,
                 sobre las costas del arroyo Las Piedras,
                 límite con el departamento de Montevideo.
                 Forma parte del área Metropolitana de Montevideo.
@@ -41,9 +41,11 @@
                     vino</b> .
                 La ciudad se destaca por la variedad de atractivos y eventos ligados con la historia de nuestro país y
                 la producción vitivinicola.
-                Cuenta con museos, monumentos, un hipódromo y un centro comercial.</p>
+                Cuenta con museos, monumentos, un hipódromo y un centro comercial.
+            </p>
             <h3>¡Antes de viajar!</h3>
             <ol>
+                
                 <li>No olvide el uso del tapabocas</li>
                 <li>Documentos correspondientes</li>
                 <li>Ropa comoda</li>
@@ -57,7 +59,7 @@
             <article id="plaza">
 
                 <figure>
-                    <h3>Plaza José Batlle y Ordóñez</h3><img src="imgs/actividad1.jpg" alt="">
+                    <h3>Plaza José Batlle y Ordóñez</h3><img src="imgs/actividad1.jpg" alt="foto de la plaza de las piedras" title="Plaza Jose Batlle y Ordoñez">
                 </figure>
                 <p>A tres cuadras de la Vía del Tren, se encuentra la plaza principal de Las Piedras, marcando el centro
                     de dicha ciudad. </p>
@@ -65,7 +67,7 @@
             <article id="bodega">
 
                 <figure>
-                    <h3>Bodega H. Stagnari</h3><img src="imgs/actividad2.jpg" alt="">
+                    <h3>Bodega H. Stagnari</h3><img src="imgs/actividad2.jpg" alt="Foto de Bodega Stagnari" title="Bodega Stagnari">
                 </figure>
                 <p>H. Stagnari es una bodega enfocada a la producción de <b>vinos premium</b>, estos son elaborados con
                     sus propias uvas provenientes de sus dos viñedos: La Puebla – Canelones (uvas blancas) y La
@@ -74,7 +76,7 @@
             <article id="parqueArtigas">
 
                 <figure>
-                    <h3>Parque Artigas</h3><img src="imgs/actividad3.jpg" alt="">
+                    <h3>Parque Artigas</h3><img src="imgs/actividad3.jpg" alt="Foto del Parque Artigas de las piedras" title="Parque Artigas">
                 </figure>
                 <p>Se trata de un parque urbano de gran significación histórica, que fue escenario de la batalla de Las
                     Piedras el 18 de mayo de 1811.</p>
@@ -83,17 +85,17 @@
 
         <section id="ciudad">
             <h2><span>Las Piedras</span> en fotos</h2>
-            <figure id="torres"><img src="imgs/torres.jfif" alt=""></figure>
-            <figure id="canyon"><img src="imgs/canyon.jpg" alt=""></figure>
-            <figure id="obelisco"><img src="imgs/obelisco.jpg" alt=""></figure>
-            <figure id="cartel"><img src="imgs/cartel.jpeg" alt=""></figure>
+            <figure id="torres"><img src="imgs/torres.jfif" alt="Foto de la parroquia san isidro" title="Parroquia San Isidro"></figure>
+            <figure id="canyon"><img src="imgs/canyon.jpg" alt="Foto caño del parque artigas" title="Cañon del parque artigas"></figure>
+            <figure id="obelisco"><img src="imgs/obelisco.jpg" alt="Foto del obelisco" title="Obelisco de Las Piedras"></figure>
+            <figure id="cartel"><img src="imgs/cartel.jpeg" alt="Foto cartel terminal de trenes" title="Carte de terminal de trenes"></figure>
         </section>
 
 
         <section id="registrate">
             <form action="#">
                 <label for="novedades">¡Registrate y recibi novedades de <span>Las Piedras</span>!</label>
-                <input type="text" id="novedades" placeholder="Ingrese su e-mail">
+                <input type="email" id="novedades" required placeholder="Ingrese su e-mail">
                 <input type="submit" value="¡QUIERO!">
             </form>
         </section>
@@ -137,22 +139,18 @@
                     </tbody>
                 </table>
             </article>
+           
             <article id="famosos">
                 <h2><span>Famosos</span> nacidos aquí</h2>
-                <ul>
-                    <li>
-                        <figure><img src="imgs/chengue.png" alt=""></figure> <h3>Richard Morales | 46 años</h3>
-                        <p>Exfutbolista</p>
-                    </li>
-                    <li>
-                        <figure><img src="imgs/Marcos_Carámbula.jpg" alt=""></figure> <h3>Marcos Carambula | 73 años</h3>
-                        <p>Fue elegido Senador de la República para el periodo 2015-2020.</p>
-                    </li>
-                    <li>
-                        <figure><img src="imgs/walterAcosta.jpg" alt=""></figure><h3>Walter Acosta | 86 años</h3>
-                        <p>Es un actor, director y dramaturgo.</p>
-                    </li>
-                </ul>
+                <figure><img src="imgs/chengue.png" alt="Foto de Richard Morales" title="Richard Morales"></figure>
+                <h3>Richard Morales | 46 años</h3>
+                <p>Exfutbolista</p>        
+                <figure><img src="imgs/Marcos_Carámbula.jpg" alt="Foto de Marcos Carambula" title="Marcos Carambula"></figure> 
+                <h3>Marcos Carambula | 73 años</h3> 
+                <p>Senador de la República para el periodo 2015-2020.</p>
+                <figure><img src="imgs/walterAcosta.jpg" alt="Foto de Walter Acosta" title="Walter Acosta"></figure>
+                <h3>Walter Acosta | 86 años</h3>
+                <p>Es un actor, director y dramaturgo.</p>
             </article>
         </section>
         <section id="quieroViajar">
